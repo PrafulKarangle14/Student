@@ -15,7 +15,7 @@ public class StudentController {
 	{
 		StudentServices s1=new StudentServices();
 		s1.saveStudent(s);
-		return "student add";
+		return "student zala add ";
 	}
 	@GetMapping("student")
 	public Student getStudent(int rollNo)
